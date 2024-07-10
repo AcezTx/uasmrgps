@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#CCFFFFFF"
+        android:orientation="horizontal"
+        android:padding="13dp">
+
+        <Button
+            android:id="@+id/btnKampusBinus"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:text="Binus" />
+
+        <Button
+            android:id="@+id/btnBraga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Braga" />
+
+        <Button
+            android:id="@+id/btnAlunAlun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alun-Alun" />
+
+        <Button
+            android:id="@+id/btnGazibu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gazibu" />
+    </LinearLayout>
+</RelativeLayout>
